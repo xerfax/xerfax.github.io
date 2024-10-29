@@ -1,0 +1,95 @@
+/*
+ >= 1200
+ 992 - 1199
+ 768 - 991
+ 576 - 768
+ 460 - 576
+ 414 - 460
+ 375 - 414
+ 320 - 375
+ */
+
+ @media screen and (max-width: 1199px){
+
+    header form div{
+        width: 238px;
+    }
+ }
+ @media screen and (max-width: 991px){ 
+
+    header > .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header > .container form, header > .container .cart{
+        margin: 15px;
+    }
+ }
+ 
+ @media screen and (max-width: 767px){
+    header .menu{
+        margin: 15px 0;
+    }
+    footer .container{
+      flex-wrap: wrap;
+    }
+    footer .right{
+      margin: 20px auto 0;
+    }
+ }
+
+ @media screen and (max-width: 576px){
+      header form div {
+        width: 240px;
+      }
+      header > .container > img{
+        margin-right: 130px;
+      }
+      header .burgericon{
+        display: inline-block;
+      }
+      header .container .menu{
+        display: none;
+      }
+      header .container .menu a {
+        margin: 0 10px;
+        display: block;
+        margin-top: 17px;
+        margin-bottom: 17px;
+      }
+      header .container .menu a:hover, header .container .menu a.active {
+        border: none;
+        margin-top: 17px;
+        margin-bottom: 17px;
+        padding: 0;
+      }
+ }
+ @media screen and (max-width: 532px){
+     header form div{
+        width: 190px;
+     }
+     header form div input[type='text'] {
+        width: 120px;
+     }
+ }
+ @media screen and (max-width: 460px){
+    header > .container form, header > .container .cart{
+        margin-top: 17px;
+    }
+    footer .left nav a{
+      display: block;
+      margin-bottom: 10px;
+    }
+    footer .left figure{
+      text-align: center;
+    }
+    footer .left figure figcaption{
+      width: auto;
+    }
+ }
+ @media screen and (max-width: 395px){
+    header > .container > img{
+        margin-right: 50px;
+      }
+ }

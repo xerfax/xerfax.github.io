@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+        <meta charester="UTF-8">
+        <meta htpp-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Контакты</title>
+        <link rel="stylesheet" type="text/css" href="css/header_footer.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive/header_footer.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+    <header class='container-fluid'>
+        <div class="container d-flex">
+            <img src="Images/main/Снимок экрана 2023-12-15 192041.png" alt="menu" />
+            <img class="burgericon" src="Images/main/Бургер.png" alt="menu" />
+            <nav class='menu'>
+                <a href='index.html'>Главная</a>
+                <a href='comp.html'>О компании</a>
+                <a href='uslug.html'>Услуги</a>
+                <a class='active' href='contact.html'>Контакты</a>
+            </nav>
+            
+        </div>
+    </header>
+    <main class="container-fluid">
+        <div class="container">
+            <div class="block1">
+                <p style="text-align: center;">
+                <span style="font-size: xx-large;">КОНТАКТЫ</span>
+                </p>
+                <p style="text-align: justify;">
+                <span style="font-size: 12pt;">Мы всегда готовы ответить на Ваши вопросы. Оставьте свои контактные данные в форме и наши специалисты обязательно свяжутся с  вами!</span>   
+                </p>
+            </div> 
+        </div>
+     <div class="blockf">
+        <div style="padding:12px;margin:6px 0;background-color:rgb(134, 160, 130);text-align: center;">
+
+            <form action="index.php" method="post" id="sendEmail">
+            <h2>Контактная форма</h2>
+            <div class="textbox">
+            <table cellspacing="10" cellpadding="0" border="0" style="width: 350px; margin: 0 auto;">
+         <tbody><tr>
+             <td width="80px" style="white-space:nowrap; text-align:right;">Ваше Имя:</td>
+             <td><input class="width100" value="" name="nameFrom" id="nameFrom" type="text"></td>
+             <td width="100px"></td>
+         </tr>
+         <tr>
+             <td style="white-space:nowrap; text-align:right;">Email:</td>
+             <td><input class="width100" value="" name="emailFrom" id="emailFrom" type="text"></td>
+             <td></td>
+         </tr>
+         <tr>
+             <td style="white-space:nowrap; text-align:right;">Телефон:</td>
+             <td><input class="width100" value="" name="phoneFrom" id="phoneFrom" type="text"></td>
+             <td></td>
+         </tr>
+         </tbody></table>
+                     Текст запроса:<br>
+                     <textarea style="width: 294px; height: 10px; margin-bottom: 10px;" name="message" id="message" rows="10"></textarea>
+                     </div>
+                     <div class="textbox">
+                        <button type="button" id="submit">Отправить</button>
+                     <input type="hidden" name="submitted" id="submitted" value="true">
+                     </div>
+               </form>
+         </div>
+     </div> 
+    </main>
+    <footer class="container-fluid">
+         <div class="container d-flex">
+            <div class="left">
+            <figure>
+                <nav>
+                <a href='index.html'>Главная</a>
+                <a href='comp.html'>О компании</a>
+                <a href='uslug.html'>Услуги</a>
+                <a class='active' href='contact.html'>Контакты</a>
+                <a href='#'>Версия для телефонов</a>
+                </nav>
+                <img src="Images/main/Снимок экрана 2023-12-15 204100.png" alt="logo" />
+                
+                <figcaption>
+                     2023 разработка баз данных Baseus
+                </figcaption>
+            </figure>
+            </div>
+            <div class="right">
+             <a href='#' class="box mail"></a>
+             <a href='#' class="box facebook"></a>
+             <a href='#' class="box twitter"></a>
+            </div>
+         </div>
+        <div class="container copyrights">
+        <p>Все права защищены &copy; 2023</p>
+        </div>
+    </footer>
+</body>
+</html>

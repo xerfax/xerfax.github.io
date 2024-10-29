@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.block1{
+    padding: 20px 32px;
+}
+.block1 p{
+    padding: 20px 32px;
+}
+.block2 {
+    padding: 10px 10px;
+}
+.block2 table{
+    text-align: justify;
+    vertical-align: top;
+    height: 70px;
+}
+.block2 table td{
+    padding: 20px 32px;
+}
+.block2 table .left{
+    float: left;
+    padding: 0 10px 10px 0;
+}
+.block3 p{
+    padding: 20px 32px;
+}
+.blockf {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fforma{
+    display: flex;
+    background-color: rgba(96, 173, 91, 0.1);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(96, 173, 91, 0.1);
+    width: 300px;
+    position: relative;
+    margin-top: 20px;
+    height: 500px;
+}
+.fforma label{
+    display: block;
+    margin-bottom: 8px; 
+}
+.fforma button{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+div .hardbass{
+    margin-top: 400px;
+    position:absolute ;
+}
+div .wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}

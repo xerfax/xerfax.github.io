@@ -1,0 +1,46 @@
+/* Task List Styles */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Task Element Styles */
+.task-element {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: grab;
+}
+
+.task-element:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.task-element:active {
+  cursor: grabbing;
+}
+
+/* Drag and Drop Area Styles */
+.drag-and-drop {
+  background: linear-gradient(135deg, #e3f2fd, #e0f7fa);
+  color: #555;
+  padding: 20px;
+  border: 2px dashed #90caf9;
+  border-radius: 12px;
+  list-style: none;
+  text-align: center;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.drag-and-drop:hover {
+  background: #e1f5fe;
+  border-color: #42a5f5;
+}
